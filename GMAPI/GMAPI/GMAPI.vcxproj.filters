@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GM functions">
+      <UniqueIdentifier>{4a15ccda-bd13-4165-93ff-0505019ec4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GM functions">
+      <UniqueIdentifier>{c3fbc519-1609-42b0-baca-1dd7ae798594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GmapiConsts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiInternal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gmapi3DGraphics.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiDataStructures.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiFiles.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiGameGraphics.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiGameplay.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiInteraction.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiMultiplayer.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiParticles.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiPopups.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiResources.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GmapiSounds.cpp">
+      <Filter>Source Files\GM functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gmapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiConsts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gmapi3DGraphics.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiDataStructures.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiFiles.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiGameGraphics.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiGameplay.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiInteraction.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiMultiplayer.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiParticles.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiPopups.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiResources.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GmapiSounds.h">
+      <Filter>Header Files\GM functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
