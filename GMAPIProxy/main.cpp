@@ -8,7 +8,7 @@ using namespace gm;
 
 CGMAPI* g_pGmapi;
 CRITICAL_SECTION critSec;
-FILE* fp;
+//FILE* fp;
 
 #ifdef __cplusplus
 extern "C"
@@ -35,9 +35,8 @@ extern "C"
 
 		if (script_exists((int)ind))
 		{
-			fprintf_s(fp, "%x\r\n", g_pGmapi->GetCurrentInstanceID());
-			fflush(fp);
-			//Guard guard(critSec);
+			if(!instance_exists(g_pGmapi->GetCurrentInstancePtr()->object_index)) return 1;
+			Guard guard(critSec);
 			CGMVariable args[1];
 			args[0].Set(msg);
 			script_execute((int)ind, args, 1);
@@ -64,7 +63,7 @@ DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 	switch (fdwReason)
 	{
 	case DLL_PROCESS_ATTACH:
-		fopen_s(&fp, "out.txt", "w");
+		//fopen_s(&fp, "out.txt", "w");
 		InitializeCriticalSection(&critSec);
 		g_pGmapi = CGMAPI::Create(&result);
 		functionData = g_pGmapi->PreserveFunctionData();
