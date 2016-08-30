@@ -15,10 +15,6 @@ namespace GMSharpJS
     /// </summary>
     class WilddogJS
     {
-        #region 异步方法
-        #endregion
-
-        #region 野狗API
         class MessageContext
         {
             internal string path;
@@ -135,13 +131,6 @@ namespace GMSharpJS
         {
             Task.Run(() => JSFunctions.jsFunc(new { directive = "Remove", path }));
             return "true";
-        } 
-        #endregion
-
-        #region JS主体
-        #endregion
-
-        #region GMAPI调用层
-        #endregion
+        }
     }
 }
